@@ -1,0 +1,48 @@
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+
+input[type="select"]:disabled {
+    background: #a8a8a8;
+  }
+
+.central-controls {
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+.left-controls {
+  margin: auto;
+  width: 90%;;
+  padding: 10px;
+  text-align: left;
+}
+
+.left {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+}
+
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+
+.float-child {
+  width: 45%;
+  float: left;
+  padding: 20px;
+}
+
+.float-child-c {
+  width: 45%;
+  float: left;
+  padding: 20px;
+} 
