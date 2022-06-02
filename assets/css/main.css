@@ -2322,6 +2322,12 @@ input, select, textarea {
 			display: block;
 		}
 
+		.image img.border {
+			max-width: 75%;
+			max-height: 75%;
+			border: 4px solid black;
+		}
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
@@ -2572,7 +2578,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
